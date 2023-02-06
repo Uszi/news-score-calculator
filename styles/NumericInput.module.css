@@ -1,0 +1,22 @@
+.numericinput {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.numericinput:nth-of-type(1) {
+  margin-top: 50px;
+}
+.numericinput label {
+  font-size: 16px;
+  font-weight: 600;
+}
+.numericinput span {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 25px;
+}
+.numericinput input[type="number"] {
+  background: #FAF6FF;
+  border: 1px solid rgba(116, 36, 218, 0.05);
+  padding: 10px 12px 10px 24px;
+}

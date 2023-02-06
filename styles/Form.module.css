@@ -1,0 +1,29 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 40px;
+}
+.form button {
+  padding: 8px 16px;
+  width: 201px;
+  height: 40px;
+  background: #7424DA;
+  border: 0;
+  border-radius: 40px;
+  color: #fff;
+  font-size: 14px;
+}
+.form button:hover {
+  background: #451486;
+  cursor: pointer;
+}
+.form button[type="button"] {
+  background: #FAF6FF;
+  color: #000;
+  width: 115px;
+  margin-left: 24px;
+}
+.form button[type="button"]:hover {
+  background: #d9d5df;
+}
