@@ -24,6 +24,7 @@ const calculateScore = (data: any, value: number) => {
       return measureData.score
     }
   }
+  return 0
 }
 const requestBodyValidation: yup.SchemaOf<RequestData> = yup.object().shape({
   measurments: yup.array().of(yup.object().shape({

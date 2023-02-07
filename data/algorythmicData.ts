@@ -10,6 +10,7 @@ export type AlgorithmData = {
     type: string,
     ranges: Measure[]
 }
+
 const tempData: AlgorithmData = {
     type: 'TEMP',
     ranges: [
@@ -35,6 +36,7 @@ const tempData: AlgorithmData = {
       },
     ]
   }
+
 const hrData: AlgorithmData = {
     type: 'HR',
     ranges: [
@@ -64,6 +66,7 @@ const hrData: AlgorithmData = {
       },
     ]
   }
+  
 const rrData: AlgorithmData = {
     type: 'RR',
     ranges: [
